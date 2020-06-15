@@ -1,4 +1,15 @@
-# Complete the staircase function below.
+'''
+Consider a staircase of size n=4
+
+   #
+  ##
+ ###
+####
+
+Write a program that prints a staircase of size 'n'
+
+'''
+
 def staircase(input):
     n = len(list(range(input+1)))
     for i in range(input+1):
