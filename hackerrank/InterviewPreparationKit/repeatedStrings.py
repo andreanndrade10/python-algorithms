@@ -1,3 +1,5 @@
+#https://www.hackerrank.com/challenges/repeated-string/
+
 '''def repeatedString(s,n):
     #count_a = 0
     interator = 1
@@ -13,6 +15,6 @@
 def repeatedString(s,n):
     count_a = (s[:n%len(s)].count('a')+(s.count('a')*(n//len(s))))
     return count_a
-    
+
 if __name__ == "__main__":
     pass
