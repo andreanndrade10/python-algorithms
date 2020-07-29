@@ -14,8 +14,8 @@ def twoStrings(string1, string2):
 if __name__ == "__main__":
     q = int(input('number of pairs to compare: ')) 
     for i in range(q):
-        s1=input()
-        s2=input()
+        s1=input('String 1: ')
+        s2=input('String 2: ')
         result = twoStrings(s1,s2)
         print(result)
 
